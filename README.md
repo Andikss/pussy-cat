@@ -1,4 +1,4 @@
-![Alt text]('/assets/img/thumbnail.png')
+![Alt text]('assets/img/thumbnail.png')
 
 # **Help Your Pussy Cat!!!**
 
