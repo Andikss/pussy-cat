@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pussy Cat</title>
+
+    <link rel="shortcut icon" href="assets/img/cat-left.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="start-screen">
+        <h1>Pussy Cat Game</h1>
+        <img src="assets/img/cat-left.png" alt="cat" width="150">
+        <button id="start-button">Start Game</button>
+    </div>
+
+    <div class="play-screen hidden">
+        <img id="character" src="assets/img/cat-right.png" alt="cat" width="50">
+        <img id="enemy" class="enemy" src="assets/img/snake.png" alt="snake" width="50">
+        <div id="coin"></div>
+        <div id="score">0</div>
+    </div>
+
+    <!-- Sound effects -->
+    <audio id="backgroundMusic" src="assets/sound/soundtrack.mp3"></audio>
+    <audio id="coinSound" src="assets/sound/sfx-3.mp3"></audio>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
